@@ -1,31 +1,49 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width= , initial-scale=1.0">
-    <title>Code Malayalam</title>
-    <link rel="stylesheet" href="style.css?v=2">
-</head>
-<body>
-    HELLO GIT
-    <div class="top">
-        <div class="header">
-            <div class="title">
-                <div class="logo">
-                    <img src="bin/logo.png" alt="logo" width="50px" height="50px">
-                </div>
-                <div class="title-text">
-                    CODE MALAYALAM
-                </div>
-            </div>
-            <div class="subtitle">
-                LEARN CODING WITH EASE
-            </div>
-        </div>
-        <div class="caption">
-            <span>J</span>avascript <span>G</span>it <span>R</span>eact
-        </div>
+    <head>
+        <title>HTML FOrms</title>
 
-    </div>
-    
-</body>
+    </head>
+    <body>
+        <h1>
+            HTML  Forms
+        </h1>
+        <form>
+            <label for="username">enter username;</label>
+            <input type="text" id="username" name="username" placeholder="username">
+            <br><br>
+            <label for="email">enter email:</label>
+            <input type="email" id="email" name="email" placeholder="email"></input>
+            <br><br>
+            <label for="password">enter password</label>
+            <input type="password" id="password" name="password" placeholder="password">
+            <br><br
+            <p>select ypur age;</p>
+            <input type="radio" name="age" value="0-25" id="option-1">
+            <label for="option-1">0-25</label>
+            <input type="radio" name="age" value="26-50" id="option-2">
+            <label for="option-2">26-50</label>
+            <input type="radio" name="age" value="50+" id="option-3">
+            <label for="option-3">50+</label>
+            <br><br>
+            <label for="question">Security question:</label>
+            <select name="question" id="question">
+            <option value="q1">which is your favourite color?</option>
+            <option value="q2">your first school</option>
+            <option value="q3">which is your favourite security question</option>
+            </select>
+            <br><br>
+            <label for="">security question answer;</label>
+            <input type="text" name="answer" id="answer">
+            <br><br>
+            <label for="bio">your bio:</label>
+            <textarea name="bio" id="bio" cols="30" rows="10" placeholder="about you.."></textarea>
+            <br><br>
+
+            <input type="submit" value="submit thr form">
+            
+        </form> 
+        
+        <p>
+        </p>
+    </body>
 </html>
